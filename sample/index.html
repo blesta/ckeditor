@@ -104,7 +104,6 @@
 	<script src="../build/ckeditor.js"></script>
 	<script>ClassicEditor
 			.create( document.querySelector( '.editor' ), {
-				
 				toolbar: {
 					items: [
 						'heading',
@@ -134,7 +133,8 @@
 						'mediaEmbed',
 						'codeBlock',
 						'undo',
-						'redo'
+						'redo',
+						'htmlEmbed'
 					]
 				},
 				language: 'en',
@@ -159,14 +159,6 @@
 			} )
 			.then( editor => {
 				window.editor = editor;
-		
-				
-				
-				
-		
-				
-				
-				
 			} )
 			.catch( error => {
 				console.error( 'Oops, something went wrong!' );
