@@ -1,5 +1,6 @@
 {
     "name": "blesta/ckeditor",
+    "version": "3.0.0",
     "type": "library",
     "description": "CKEditor 5 editor generated with the online builder - JavaScript WYSIWYG web text editor.",
     "author": "CKSource (https://cksource.com/)",
